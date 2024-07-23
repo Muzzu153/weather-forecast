@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=htmlWebpackPlugin.options.title%>
+    </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section id="above-half" class="section">
+            <div id="date-timezone">
+                <div class="date">05-08-1998</div>
+                <div class="time-zone">Mumbai/Kolkata</div>
+            </div>
+            <div id="search-location-condition">
+                <div class="search-bar">
+                    <form action="">
+                        <label for="search">Search Location</label>
+                        <input type="search" name="" id="search">
+                        <button type="button">-></button>
+                    </form>
+                </div>
+                <div class="location">
+                    Mumbai
+                </div>
+                <div class="condition">
+                    Overcast
+                </div>
+            </div>
+        </section>
+
+        <section id="description" class="section">
+            <div id="temperature">27 °C</div>
+            <p>Similar temperatures continuing with a chance of rain multiple days.</p>
+        </section>
+        <section id="extras-div" class="section">
+            <div id="feels-like" class="extras"></div>
+            <div id="sunrise" class="extras">06:12:24</div>
+            <div id="sunset" class="extras">19:17:51</div>
+            <div id="windspeed" class="extras">19.4</div>
+        </section>
+        <section id="hourly-weekly" class="section">Hourly/Weekly</section>
+    </div>
+</body>
+
+</html>
